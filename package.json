@@ -1,0 +1,25 @@
+{
+  "name": "everyeye-rss",
+  "version": "1.0.0",
+  "description": "RSS manager for retrieving videogame news from https://www.everyeye.it website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ontech7/everyeye-rss.git"
+  },
+  "keywords": [
+    "rss",
+    "everyeye",
+    "videogame",
+    "news"
+  ],
+  "author": "Andrea Losavio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ontech7/everyeye-rss/issues"
+  },
+  "homepage": "https://github.com/ontech7/everyeye-rss#readme"
+}
