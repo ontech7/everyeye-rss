@@ -1,0 +1,2 @@
+# Ignore node_modules (install them by youself)
+node_modules/
