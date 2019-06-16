@@ -3,10 +3,10 @@ A npm package for retrieving videogame news from https://www.everyeye.it website
 
 ## Installation
 
-First of all, install all required packages using **npm** inside the project folder
+Install it as dependency for you project
 
 ```bash
-npm install
+npm i https://github.com/ontech7/everyeye-rss.git
 ```
 
 Import it in your project adding this in the head of the **.js** file
@@ -35,7 +35,7 @@ rss(maxLength, callback);
 ```javascript
 everyeye.rss(5, function(result) {
   console.log(result.title);
-}
+});
 ```
 Output:
 
