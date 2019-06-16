@@ -23,35 +23,12 @@ var everyeye = require('everyeye-rss');
 rss(maxLength, callback);
 ```
 
-(Array of String) News titles:
-
-```javascript
-return news.title;
-```
-
-(Array of String) News descriptions:
-
-```javascript
-return news.description;
-```
-
-(Array of String) News links:
-
-```javascript
-return news.link;
-```
-
-(Array of String) News creators:
-
-```javascript
-return news.creator;
-```
-
-(Array of String) News publish dates:
-
-```javascript
-return news.pubDate;
-```
+news: (Object) News info
+- title: (Array of String) News titles
+- description: (Array of String) News descriptions
+- link: (Array of String) News links
+- creator: (Array of String) News creators
+- pubDate: (Array of String) News publish dates
 
 ## Example
 
