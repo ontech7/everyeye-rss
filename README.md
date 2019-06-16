@@ -9,54 +9,55 @@ First of all, install all required packages using **npm** inside the project fol
 npm install
 ```
 
-Run it from the entry point
+Import it in your project adding this in the head of the .js file
 
-```bash
-node index.js
+```javascript
+var everyeye = require('everyeye-rss');
 ```
 
-## Usages
+## Docs
 
 (int) News you want to store:
 
 ```javascript
-return news_maxLength;
+return news.maxLength;
 ```
 (Array of String) News titles:
 
 ```javascript
-return news_title;
+return news.title;
 ```
 
 (Array of String) News descriptions:
 
 ```javascript
-return news_description;
+return news.description;
 ```
 
 (Array of String) News links:
 
 ```javascript
-return news_link;
+return news.link;
 ```
 
 (Array of String) News creators:
 
 ```javascript
-return news_creator;
+return news.creator;
 ```
 
 (Array of String) News publish dates:
 
 ```javascript
-return news_pubDate;
+return news.pubDate;
 ```
 
 ## Example
 
 ```javascript
-var news_count = 5;
-console.log(news_title);
+everyeye.rss(5, function(result) {
+  console.log(result.title);
+}
 ```
 Output:
 
@@ -65,8 +66,9 @@ Output:
   "I numeri dell'E3 2019: partecipanti, successo sui social media e molto altro",
   'Ubisoft ha scelto Londra per Watch Dogs Legion prima del voto sulla Brexit',
   'Blair Witch: il nuovo gioco horror degli autori di Layers of Fear',
-  'Su DMAX torna House of Esports: focus su Fortnite, Overwatch e grandi ospiti',
-  'Everyeye.it cerca nuovi newser per la sezione Videogiochi' ]
+  'Su DMAX torna House of Esports: focus su Fortnite, Overwatch e grandi ospiti']
 ```
+
+You can test it through `node test.js` inside the main folder
 
 ## Sorry not sorry for bad README
