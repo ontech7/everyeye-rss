@@ -17,11 +17,12 @@ var everyeye = require('everyeye-rss');
 
 ## Docs
 
-(int) News you want to store:
+(function) Returns 'maxLength' news in a 'news' object
 
 ```javascript
-return news.maxLength;
+rss(maxLength, callback);
 ```
+
 (Array of String) News titles:
 
 ```javascript
