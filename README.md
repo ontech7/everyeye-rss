@@ -24,11 +24,11 @@ rss(maxLength, callback);
 ```
 
 news: (Object) News info
-- title: (Array of String) News titles
-- description: (Array of String) News descriptions
-- link: (Array of String) News links
-- creator: (Array of String) News creators
-- pubDate: (Array of String) News publish dates
+|- title: (Array of String) News titles
+|- description: (Array of String) News descriptions
+|- link: (Array of String) News links
+|- creator: (Array of String) News creators
+|_ pubDate: (Array of String) News publish dates
 
 ## Example
 
