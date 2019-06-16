@@ -23,12 +23,12 @@ var everyeye = require('everyeye-rss');
 rss(maxLength, callback);
 ```
 
-news: (Object) News info
-|- title: (Array of String) News titles
-|- description: (Array of String) News descriptions
-|- link: (Array of String) News links
-|- creator: (Array of String) News creators
-|_ pubDate: (Array of String) News publish dates
+news: (Object) News info . 
+|- title: (Array of String) News titles . 
+|- description: (Array of String) News descriptions . 
+|- link: (Array of String) News links . 
+|- creator: (Array of String) News creators . 
+|_ pubDate: (Array of String) News publish dates  
 
 ## Example
 
