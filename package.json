@@ -21,9 +21,5 @@
   "bugs": {
     "url": "https://github.com/ontech7/everyeye-rss/issues"
   },
-  "homepage": "https://github.com/ontech7/everyeye-rss#readme",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "jsdom": "^15.1.1"
-  }
+  "homepage": "https://github.com/ontech7/everyeye-rss#readme"
 }
