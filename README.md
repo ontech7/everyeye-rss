@@ -20,7 +20,7 @@ var everyeye = require('everyeye-rss');
 (*function*) Returns '**maxLength**' news in a '**news**' object, from the latest to the earliest.
 
 ```javascript
-rss(maxLength, callback);
+rss(maxLength);
 ```
 
 **news**: (*Object*) News info.<br/>
@@ -33,9 +33,7 @@ rss(maxLength, callback);
 ## Example
 
 ```javascript
-everyeye.rss(5, function(result) {
-  console.log(result.title);
-});
+everyeye.rss(5).then((result) => console.log(result.title));
 ```
 Output:
 
