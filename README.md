@@ -1,4 +1,4 @@
-# everyeye-rss
+# everyeye-rss 2.1.0
 A npm package for retrieving videogame news from https://www.everyeye.it website
 
 ## Installation
@@ -19,16 +19,19 @@ var everyeye = require('everyeye-rss');
 
 (*function*) Returns '**maxLength**' news in a '**news**' object, from the latest to the earliest.
 
+@Parameter **maxLength**: how many news you want to pull.
+@Parameter **simulation**: if true, loads simulation.xml file.
+
 ```javascript
-rss(maxLength);
+rss(maxLength[, simulation]);
 ```
 
 **news**: (*Object*) News info.<br/>
-|- title: (*Array of String*) News titles.<br/>
-|- description: (*Array of String*) News descriptions.<br/>
-|- link: (*Array of String*) News links.<br/>
-|- creator: (*Array of String*) News creators.<br/>
-|_ pubDate: (*Array of String*) News publish dates.<br/>
+|- titles: (*Array of String*) News titles.<br/>
+|- descriptions: (*Array of String*) News descriptions.<br/>
+|- links: (*Array of String*) News links.<br/>
+|- creators: (*Array of String*) News creators.<br/>
+|_ pubDates: (*Array of String*) News publish dates.<br/>
 
 ## Example
 
