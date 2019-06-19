@@ -19,8 +19,8 @@ var everyeye = require('everyeye-rss');
 
 (*function*) Returns '**maxLength**' news in a '**news**' object, from the latest to the earliest.
 
-@Parameter **maxLength**: how many news you want to pull.
-@Parameter **simulation**: if true, loads simulation.xml file.
+@Parameter **maxLength**: how many news you want to pull.<br/>
+@Parameter **simulation**: if true, loads simulation.xml file.<br/>
 
 ```javascript
 rss(maxLength[, simulation]);
