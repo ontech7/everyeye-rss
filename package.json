@@ -1,6 +1,6 @@
 {
   "name": "everyeye-rss",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "RSS manager for retrieving videogame news from https://www.everyeye.it website",
   "main": "index.js",
   "scripts": {
