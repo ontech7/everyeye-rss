@@ -36,7 +36,7 @@ rss(maxLength[, simulation]);
 ## Example
 
 ```javascript
-everyeye.rss(5).then((result) => console.log(result.title));
+everyeye.rss(5).then((result) => console.log(result.titles));
 ```
 Output:
 
